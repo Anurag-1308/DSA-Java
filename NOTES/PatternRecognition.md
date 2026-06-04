@@ -7,8 +7,20 @@ When to use:
 - Triplet Sum
 - Remove Duplicates
 
-Example Question:
-Two Sum II
+Questions Solved:
+
+- Two Sum II
+- Remove Duplicates
+- Sorted Squares
+- Merge Two Sorted Arrays
+
+Pattern Signals:
+
+- Sorted Array
+- Pair Sum
+- Merge Problems
+- Remove Duplicates
 
 Observation:
-If array is sorted, think about Two Pointers before HashMap.
+Whenever array is sorted,
+try Two Pointers before nested loops,hashmap.

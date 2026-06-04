@@ -2,19 +2,27 @@
 Question:
 Remove Duplicates from Sorted Array
 
+LeetCode:
+26
+
 Pattern:
 Two Pointers
 
+Approach:
+Keep one pointer for unique elements and another for traversal.
+
 Time Complexity:
 O(n)
-
 Space Complexity:
 O(1)
 
 Key Observation:
-Since array is sorted, duplicates appear together.
-*/
+Since the array is sorted, duplicates appear together.
+We can overwrite duplicates by placing unique elements at the correct position.
 
+Status:
+Solved
+*/
 class Solution {
     public int removeDuplicates(int[] nums) {
         int i=0;

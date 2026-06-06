@@ -13,10 +13,13 @@ The Two Pointers pattern uses two indices to solve problems efficiently.
 - [x] Remove Duplicates
 - [x] Sorted Squares
 - [x] Merge Two Sorted Arrays
+- [x] Remove Element
+- [x] Move Zeroes
+- [x] Remove Duplicates II
 
 # Questions Remaining
 
-- [ ] Triplet Sum To Zero
-- [ ] Triplet Sum Close To Target
+- [ ] Triplet Sum To Zero/ 3 Sum 
+- [ ] Triplet Sum Close To Target/ 3 Sum Closest
 
 

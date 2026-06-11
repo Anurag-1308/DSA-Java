@@ -16,10 +16,14 @@ The Two Pointers pattern uses two indices to solve problems efficiently.
 - [x] Remove Element
 - [x] Move Zeroes
 - [x] Remove Duplicates II
+- [x] 3Sum
+- [x] 3Sum Closest
+- [x] Triplet Smaller Sum
 
 # Questions Remaining
 
-- [ ] Triplet Sum To Zero/ 3 Sum 
-- [ ] Triplet Sum Close To Target/ 3 Sum Closest
+- [ ] 4 Sum
+- [ ] Container With Most Water
+- [ ] Sort Colurs/Dutch National Flag
 
 

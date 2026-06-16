@@ -40,8 +40,8 @@ Revision
 📂 Repository Structure
 
 01-TwoPointers
-02-FastSlowPointers
-03-SlidingWindow
+02-SlidingWindow
+03-FastSlowPointers
 04-KadaneAlgorithm
 05-PrefixSum
 06-MergeIntervals
@@ -60,7 +60,7 @@ Notes
 
 | Pattern | Status |
 |----------|----------|
-| Two Pointers | 🟡 In Progress |
+| Two Pointers | ✅ Completed |
 | Fast & Slow Pointers | ⬜ Not Started |
 | Sliding Window | ⬜ Not Started |
 | Kadane Algorithm | ⬜ Not Started |

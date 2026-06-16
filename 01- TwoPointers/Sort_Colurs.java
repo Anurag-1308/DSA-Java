@@ -1,0 +1,55 @@
+# Sort Colors
+
+Pattern:
+Two Pointers
+
+Approaches:
+1. Counting Sort
+2. Dutch National Flag Algorithm
+
+Key Idea:
+Maintain three regions:
+0s | 1s | Unknown | 2s
+
+Learning:
+- Three Pointer Technique.
+- In-place sorting.
+- Dutch National Flag Algorithm.
+
+Complexity:
+Time: O(n)
+Space: O(1)
+
+Code:
+
+class Solution {
+    public void sortColors(int[] nums) {
+        int low = 0;
+        int mid = 0;
+        int high = nums.length - 1;
+
+        while (mid <= high) {
+
+            if (nums[mid] == 0) {
+                int temp = nums[low];
+                nums[low] = nums[mid];
+                nums[mid] = temp;
+
+                low++;
+                mid++;
+            }
+
+            else if (nums[mid] == 1) {
+                mid++;
+            }
+
+            else { // nums[mid] == 2
+                int temp = nums[mid];
+                nums[mid] = nums[high];
+                nums[high] = temp;
+
+                high--;
+            }
+        }
+    }
+}

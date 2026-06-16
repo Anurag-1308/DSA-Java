@@ -19,11 +19,34 @@ The Two Pointers pattern uses two indices to solve problems efficiently.
 - [x] 3Sum
 - [x] 3Sum Closest
 - [x] Triplet Smaller Sum
+- [x] 4 Sum
+- [x] Container With Most Water
+- [x] Sort Colurs/Dutch National Flag
 
-# Questions Remaining
+# Complexity
+Most Two Pointers problems improve brute force solutions by reducing nested loops.
 
-- [ ] 4 Sum
-- [ ] Container With Most Water
-- [ ] Sort Colurs/Dutch National Flag
+Typical Complexity:
+- Time: O(n) to O(n²)
+- Space: O(1)
+
+# Key Learnings
+
+- Opposite Direction Pointers
+- Same Direction Pointers
+- Duplicate Handling
+- In-place Array Modification
+- Triplet and Quadruplet Problems
+- Dutch National Flag Algorithm
+- Greedy Pointer Movement
+
+# Status
+
+✅ Pattern Completed
+
+Questions Solved: 13/13
+
+
+
 
 

@@ -1,4 +1,5 @@
-# 209. Minimum Size Subarray Sum
+/*
+#Minimum Size Subarray Sum
 Pattern:
 Sliding Window
 
@@ -30,6 +31,7 @@ Learning:
 Complexity:
 Time: O(n)
 Space: O(1)
+*/
 
 Code:
 

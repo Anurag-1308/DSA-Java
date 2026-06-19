@@ -1,4 +1,4 @@
-# Maximum Sum Subarray of Size K
+/* # Maximum Sum Subarray of Size K
 Pattern:
 Sliding Window
 
@@ -30,6 +30,7 @@ Learning:
 Complexity:
 Time: O(n)
 Space: O(1)
+*/
 
 Code:
 

@@ -1,0 +1,68 @@
+# 643. Maximum Average Subarray I
+Pattern:
+Sliding Window
+
+Window Type:
+Fixed Size Window
+
+Template:
+
+low = 0
+sum = 0
+for(high = 0; high < n; high++){
+    sum += nums[high]
+    if(high - low + 1 == k){
+        maxSum = max(maxSum, sum)
+        sum -= nums[low]
+        low++
+    }
+}
+average = maxSum / k
+
+Key Idea:
+Maintain a window of size K.
+Track maximum sum.
+
+Learning:
+- Fixed Size Window
+- Running Sum
+- Maximum Window Tracking
+
+Complexity:
+Time: O(n)
+Space: O(1)
+
+Code:
+class Solution {
+    public double findMaxAverage(int[] nums, int k) {
+
+        int low = 0;
+
+        // Current window sum
+        long windowSum = 0;
+
+        // Maximum window sum found so far
+        long maxSum = Long.MIN_VALUE;
+
+        // Expand the window
+        for (int high = 0; high < nums.length; high++) {
+
+            // Add current element
+            windowSum += nums[high];
+
+            // Window size becomes k
+            if (high - low + 1 == k) {
+
+                // Update answer using current window
+                maxSum = Math.max(maxSum, windowSum);
+
+                // Slide the window
+                windowSum -= nums[low];
+                low++;
+            }
+        }
+
+        // Convert maximum sum into average
+        return (double) maxSum / k;
+    }
+}

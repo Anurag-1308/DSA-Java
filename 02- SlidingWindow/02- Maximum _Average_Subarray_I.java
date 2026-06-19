@@ -1,3 +1,4 @@
+/*
 # 643. Maximum Average Subarray I
 Pattern:
 Sliding Window
@@ -31,6 +32,7 @@ Learning:
 Complexity:
 Time: O(n)
 Space: O(1)
+*/
 
 Code:
 class Solution {

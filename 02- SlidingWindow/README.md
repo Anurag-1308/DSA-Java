@@ -14,15 +14,16 @@ The Sliding Window pattern is used to efficiently process contiguous subarrays o
 - [x] Maximum Sum Subarray of Size K                                  (  NA  )
 - [x] Maximum Average Subarray                                        (LC 643)I
 - [x] Minimum Size Subarray Sum                                       (LC 209)
+- [x] Longest Substring Without Repeating Characters                   (LC 3)
+- [x] Longest Substring with At Most K Distinct Characters             (LC 340)
+- [x] Fruit Into Baskets                                               (LC 904)
+- [x] Longest Substring with At Most Two Distinct Characters           (LC 159)
+- [x] Longest Repeating Character Replacement                          (LC 424)
+- [x] Max Consecutive Ones                                             (LC 485)
+- [x] Max Consecutives Ones II                                         (LC 487)
+- [x] Max Consecutive Ones III                                         (LC 1004)
 
 # Questions Remaining
-- [ ] Longest Substring Without Repeating Characters                   (LC 3)
-- [ ] Longest Substring with At Most K Distinct Characters             (LC 340)
-- [ ] Fruit Into Baskets                                               (LC 904)
-- [ ] Longest Substring with At Most Two Distinct Characters           (LC 159)
-- [ ] Longest Repeating Character Replacement                          (LC 424)
-- [ ] Max Consecutive Ones                                             (LC 485)
-- [ ] Max Consecutive Ones III                                         (LC 1004)
 - [ ] Longest Subarray of 1's After Deleting One Element               (LC 1493)
 - [ ] Subarray Product Less Than K                                     (LC 713)
 - [ ] Minimum Window Substring                                         (LC 76)
@@ -58,5 +59,5 @@ Typical Complexity:
 # Status
 🚧 Pattern In Progress
 
-Questions Solved: 3/13
-Questions Remaining: 10
+Questions Solved: 11/14
+Questions Remaining: 3

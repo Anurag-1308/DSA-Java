@@ -22,8 +22,8 @@ Revision
 # Core Patterns
 
 - Two Pointers
-- Fast & Slow Pointers
 - Sliding Window
+- Fast & Slow Pointers
 - Kadane Algorithm
 - Prefix Sum
 - Merge Intervals
@@ -61,8 +61,8 @@ Notes
 | Pattern | Status |
 |----------|----------|
 | Two Pointers | ✅ Completed |
+| Sliding Window | ✅ Completed |
 | Fast & Slow Pointers | ⬜ Not Started |
-| Sliding Window | ⬜ Not Started |
 | Kadane Algorithm | ⬜ Not Started |
 | Prefix Sum | ⬜ Not Started |
 | Merge Intervals | ⬜ Not Started |

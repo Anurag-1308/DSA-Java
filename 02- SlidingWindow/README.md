@@ -22,11 +22,9 @@ The Sliding Window pattern is used to efficiently process contiguous subarrays o
 - [x] Max Consecutive Ones                                             (LC 485)
 - [x] Max Consecutives Ones II                                         (LC 487)
 - [x] Max Consecutive Ones III                                         (LC 1004)
-
-# Questions Remaining
-- [ ] Longest Subarray of 1's After Deleting One Element               (LC 1493)
-- [ ] Subarray Product Less Than K                                     (LC 713)
-- [ ] Minimum Window Substring                                         (LC 76)
+- [x] Longest Subarray of 1's After Deleting One Element               (LC 1493)
+- [x] Subarray Product Less Than K                                     (LC 713)
+- [x] Minimum Window Substring                                         (LC 76)
 
 # Complexity
 Most Sliding Window problems improve brute force solutions by avoiding repeated work.

@@ -55,7 +55,6 @@ Typical Complexity:
 5. Update Answer
 
 # Status
-🚧 Pattern In Progress
+✅ Pattern Completed
 
-Questions Solved: 11/14
-Questions Remaining: 3
+Questions Solved: 14/14

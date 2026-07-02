@@ -23,13 +23,13 @@ This folder contains my Data Structures and Algorithms revision notes, pattern r
 Patterns covered during preparation:
 
 - Two Pointers ✅
-- Sliding Window 🔜
+- Sliding Window ✅
+- Slow & Fast Pointer 🔜
 - Binary Search 🔜
 - Prefix Sum 🔜
 - Hashing 🔜
 - Stack 🔜
 - Queue 🔜
-- Linked List 🔜
 - Trees 🔜
 - Graphs 🔜
 
@@ -78,10 +78,10 @@ Interview Ready
 Completed Patterns:
 
 - ✅ Two Pointers
+- ✅ Sliding Window 
 
 Upcoming Patterns:
-
-- 🔜 Sliding Window
+- 🔜 Slow & Fast Pointer 
 - 🔜 Binary Search
 - 🔜 Prefix Sum
 

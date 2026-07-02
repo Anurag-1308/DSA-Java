@@ -1,117 +1,146 @@
-Pattern Recognition - Two Pointers
-Pattern Name:
-#Two Pointers
+# 🧠 DSA Pattern Recognition Guide
+Use this file whenever you get stuck deciding **which pattern to apply**.
 
-#Description:
-The Two Pointers pattern uses two indices to traverse an array or string efficiently. It is commonly used to reduce time complexity from O(n²) to O(n).
+# 1️⃣ Two Pointers
+## 💡 Think of this pattern when...
 
-#When to Use:
+- Array is sorted
+- Need a pair/triplet/quadruplet
+- Compare from both ends
+- Remove duplicates
+- In-place modification
 
-- Sorted Arrays
-- Pair Sum Problems
-- Triplet Problems
-- Quadruplet Problems
-- Duplicate Removal
-- In-place Array Modification
-- Opposite End Comparisons
-- Window Shrinking/Expanding Problems
+### Common Keywords
 
-#Common Clues:
-If a question contains:
+Sorted
+Pair
+Triplet
+Closest Sum
+Merge
+Duplicate
+Move Zeroes
+Container
 
-- Sorted Array
-- Pair Sum
-- Triplet Sum
-- 4 Sum
-- Remove Duplicates
-- Move Elements
-- Container/Maximum Area
-- Closest Sum
+### Pointer Logic
 
-Then Two Pointers may be a suitable approach.
+```
+sum < target  → left++
+sum > target  → right--
+sum == target → store answer
+duplicate     → skip duplicate
+```
 
-#Pointer Movement Rules:
+### Complexity
 
-Case 1: Sum < Target
+Time : O(n) / O(n²)
+Space: O(1)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Move Left Pointer Forward
+# 2️⃣ Sliding Window
+## 💡 Think of this pattern when...
 
-Case 2: Sum > Target
+- Subarray
+- Substring
+- Contiguous elements
+- Longest / Shortest window
+- At Most K
+- Exactly K
+- Frequency counting
 
-Move Right Pointer Backward
+### Common Keywords
 
-Case 3: Sum == Target
+Subarray
+Substring
+Continuous
+Longest
+Minimum
+Maximum
+Window
+Consecutive
+At Most K
+Exactly K
 
-Store Answer and Move Pointers
+### Window Logic
+```
+Expand →
+Update Window →
+Valid ?
+Yes → Shrink
+Update Answer
+Repeat
+```
 
-Case 4: Duplicate Values
+### Complexity
+Time : O(n)
+Space: O(1) ~ O(k)
 
-Skip Duplicate Elements
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Case 5: Maximum Area Problems
+# 3️⃣ Slow & Fast Pointer
+## 💡 Think of this pattern when...
 
-Move Pointer Having Smaller Height
+- Linked List
+- Cycle
+- Middle node
+- Palindrome
+- Reorder
+- Nth from end
+- Reverse half
 
-#Questions Solved:
+### Common Keywords
 
-Easy:
+Cycle
+Middle
+Linked List
+Loop
+Circular
+Nth Node
+Palindrome
 
-- Two Sum II
-- Remove Duplicates from Sorted Array
-- Remove Element
-- Squares of Sorted Array
-- Move Zeroes
-- Merge Two Sorted Arrays
+### Pointer Logic
 
-Medium:
+```
+slow += 1
+fast += 2
 
-- Remove Duplicates II
-- 3Sum
-- 3Sum Closest
-- Triplet Smaller Sum
-- Sort Colors (Dutch National Flag)
+meet → cycle
 
-Hard:
+fast == null
+or
+fast.next == null
 
-- 4Sum
-- Container With Most Water
+→ no cycle
+```
 
-#Complexity
+### Complexity
+Time : O(n)
+Space: O(1)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Pair Problems:
+# ⚡ Pattern Selection Cheat Sheet
 
-Brute Force: O(n²)
-Two Pointers: O(n)
+| Problem Clue | Pattern |
+|--------------|---------|
+| Sorted Array | Two Pointers |
+| Pair Sum | Two Pointers |
+| 3Sum / 4Sum | Two Pointers |
+| Remove Duplicates | Two Pointers |
+| Subarray | Sliding Window |
+| Substring | Sliding Window |
+| Longest Window | Sliding Window |
+| Minimum Window | Sliding Window |
+| At Most K | Sliding Window |
+| Frequency Map | Sliding Window |
+| Linked List Cycle | Slow & Fast |
+| Middle Node | Slow & Fast |
+| Nth From End | Slow & Fast |
+| Reorder List | Slow & Fast |
+| Palindrome Linked List | Slow & Fast |
 
-Triplet Problems:
+# 📊 Progress
 
-Brute Force: O(n³)
-Two Pointers: O(n²)
-
-4Sum:
-
-Brute Force: O(n⁴)
-Optimized: O(n³)
-
-#Space Complexity:
-
-Usually O(1)
-
-#Key Learnings:
-
-- Opposite Direction Pointers
-- Same Direction Pointers
-- Duplicate Handling
-- In-place Array Modification
-- Pair Sum Optimization
-- Triplet and Quadruplet Problems
-- Dutch National Flag Algorithm
-- Greedy Pointer Movement
-- Area Maximization Problems
-
-#Status:
-
-✅ Pattern Completed
-
-Total Questions Solved: 13
-Difficulty Covered: Easy → Medium → Hard
+| Pattern | Status | Progress |
+|----------|--------|----------|
+| ✅ Two Pointers | Completed | 13 Questions |
+| ✅ Sliding Window | Completed | 14 Questions |
+| 🚧 Slow & Fast Pointer | In Progress | 1 / 14 |

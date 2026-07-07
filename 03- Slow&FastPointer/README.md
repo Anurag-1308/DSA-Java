@@ -19,14 +19,15 @@ split linked lists efficiently in a single traversal.
 
 # Questions Solved:
 - [x] Linked List Cycle                                              (LC 141)
+- [x] Linked List Cycle II                                           (LC 142)
+- [x] Happy Number                                                   (LC 202)
+- [x] Reverse Linked List                                            (LC 206)
+- [x] Reverse Linked List II                                         (LC 92)
+- [x] Palindrome Linked List                                         (LC 234)
 
 # Questions Remaining:
-- [ ] Linked List Cycle II                                           (LC 142)
+
 - [ ] Find the Duplicate Number                                      (LC 287)
-- [ ] Happy Number                                                   (LC 202)
-- [ ] Reverse Linked List                                            (LC 206)
-- [ ] Reverse Linked List II                                         (LC 92)
-- [ ] Palindrome Linked List                                         (LC 234)
 - [ ] Reorder List                                                   (LC 143)
 - [ ] Middle of the Linked List                                      (LC 876)
 - [ ] Intersection of Two Linked Lists                               (LC 160)
@@ -80,5 +81,5 @@ Typical Complexity:
 # Status
 🚧 Pattern In Progress
 
-Questions Solved: 1/14
-Questions Remaining: 13
+Questions Solved: 6/14
+Questions Remaining: 08

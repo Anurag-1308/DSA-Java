@@ -24,17 +24,14 @@ split linked lists efficiently in a single traversal.
 - [x] Reverse Linked List                                            (LC 206)
 - [x] Reverse Linked List II                                         (LC 92)
 - [x] Palindrome Linked List                                         (LC 234)
-
-# Questions Remaining:
-
-- [ ] Find the Duplicate Number                                      (LC 287)
-- [ ] Reorder List                                                   (LC 143)
-- [ ] Middle of the Linked List                                      (LC 876)
-- [ ] Intersection of Two Linked Lists                               (LC 160)
-- [ ] Remove Nth Node From End of List                               (LC 19)
-- [ ] Remove Linked List Elements                                    (LC 203)
-- [ ] Delete Node in a Linked List                                   (LC 237)
-- [ ] Delete the Middle Node of a Linked List                        (LC 2095)
+- [x] Find the Duplicate Number                                      (LC 287)
+- [x] Reorder List                                                   (LC 143)
+- [x] Middle of the Linked List                                      (LC 876)
+- [x] Intersection of Two Linked Lists                               (LC 160)
+- [x] Remove Nth Node From End of List                               (LC 19)
+- [x] Remove Linked List Elements                                    (LC 203)
+- [x] Delete Node in a Linked List                                   (LC 237)
+- [x] Delete the Middle Node of a Linked List                        (LC 2095)
 
 # Complexity
 Most Slow & Fast Pointer problems traverse the linked list only once.
@@ -79,7 +76,7 @@ Typical Complexity:
    - Reorder list
 
 # Status
-🚧 Pattern In Progress
+✅ Pattern Completed 
 
-Questions Solved: 6/14
-Questions Remaining: 08
+Questions Solved: 14/14
+

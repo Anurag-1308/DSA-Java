@@ -62,7 +62,7 @@ Notes
 |----------|----------|
 | Two Pointers | ✅ Completed |
 | Sliding Window | ✅ Completed |
-| Fast & Slow Pointers | ⬜ Not Started |
+| Fast & Slow Pointers | ✅ Completed |
 | Kadane Algorithm | ⬜ Not Started |
 | Prefix Sum | ⬜ Not Started |
 | Merge Intervals | ⬜ Not Started |

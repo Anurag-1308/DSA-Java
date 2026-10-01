@@ -18,14 +18,11 @@ with one deletion.
 - Dynamic Programming Optimization
 
 # Questions Solved:
-- [ ] Maximum Subarray                                             (LC 53)
-- [ ] Maximum Absolute Sum of Any Subarray                         (LC 1749)
-- [ ] Maximum Sum Circular Subarray                                (LC 918)
-- [ ] Maximum Subarray Sum with One Deletion                       (LC 1186)
-- [ ] Maximum Product Subarray                                     (LC 152)
-- [ ] K-Concatenation Maximum Sum                                  (LC 1191)
-- [ ] Maximum Erasure Value                                        (LC 1695)
-- [ ] Maximum Number of Points with Cost                           (LC 1937)
+- [x] Maximum Subarray                                             (LC 53)
+- [x] Maximum Absolute Sum of Any Subarray                         (LC 1749)
+- [x] Maximum Sum Circular Subarray                                (LC 918)
+- [x] Maximum Subarray Sum with One Deletion                       (LC 1186)
+- [x] Maximum Product Subarray                                     (LC 152)
 
 # Complexity
 Most Kadane's Algorithm problems traverse the array only once.
@@ -64,6 +61,6 @@ Typical Complexity:
    - Product Variant
 
 # Status
-🚧 Pattern Not Started
+✅ Pattern Completed
 
-Questions Solved: 0/8
+Questions Solved: 5/5

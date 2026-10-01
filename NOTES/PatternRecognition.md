@@ -161,35 +161,35 @@ Time : O(n)
 Space: O(1)
 
 ⚡ Pattern Selection Cheat Sheet
-Problem Clue	Pattern
-Sorted Array	Two Pointers
-Pair Sum	Two Pointers
-3Sum / 4Sum	Two Pointers
-Remove Duplicates	Two Pointers
-Move Zeroes	Two Pointers
-Container With Most Water	Two Pointers
-Subarray	Sliding Window / Kadane
-Substring	Sliding Window
-Longest Window	Sliding Window
-Minimum Window	Sliding Window
-At Most K	Sliding Window
-Exactly K	Sliding Window
-Frequency Map	Sliding Window
-Linked List Cycle	Slow & Fast
-Middle Node	Slow & Fast
-Nth From End	Slow & Fast
-Reorder List	Slow & Fast
-Palindrome Linked List	Slow & Fast
-Maximum Subarray Sum	Kadane
-Minimum Subarray Sum	Kadane
-Maximum Absolute Sum	Kadane
-Circular Subarray Sum	Kadane
-One Deletion + Max Sum	Kadane
-Maximum Product Subarray	Kadane
+-Problem Clue	Pattern
+-Sorted Array	Two Pointers
+-Pair Sum	Two Pointers
+-3Sum / 4Sum	Two Pointers
+-Remove Duplicates	Two Pointers
+-Move Zeroes	Two Pointers
+-Container With Most Water	Two Pointers
+-Subarray	Sliding Window / Kadane
+-Substring	Sliding Window
+-Longest Window	Sliding Window
+-Minimum Window	Sliding Window
+-At Most K	Sliding Window
+-Exactly K	Sliding Window
+-Frequency Map	Sliding Window
+-Linked List Cycle	Slow & Fast
+-Middle Node	Slow & Fast
+-Nth From End	Slow & Fast
+-Reorder List	Slow & Fast
+-Palindrome Linked List	Slow & Fast
+-Maximum Subarray Sum	Kadane
+-Minimum Subarray Sum	Kadane
+-Maximum Absolute Sum	Kadane
+-Circular Subarray Sum	Kadane
+-One Deletion + Max Sum	Kadane
+-Maximum Product Subarray	Kadane
 
 📊 Progress
 Pattern	Status	Progress
-✅ Two Pointers	Completed	13 / 13
-✅ Sliding Window	Completed	14 / 14
-✅ Slow & Fast Pointer	Completed	14 / 14
-✅ Kadane's Algorithm	Completed	5 / 5
+-✅ Two Pointers	Completed	13 / 13
+-✅ Sliding Window	Completed	14 / 14
+-✅ Slow & Fast Pointer	Completed	14 / 14
+-✅ Kadane's Algorithm	Completed	5 / 5

@@ -1,17 +1,15 @@
-# 🧠 DSA Pattern Recognition Guide
-Use this file whenever you get stuck deciding **which pattern to apply**.
+🧠 DSA Pattern Recognition Guide
+Use this file whenever you get stuck deciding which pattern to apply.
 
-# 1️⃣ Two Pointers
-## 💡 Think of this pattern when...
+1️⃣ Two Pointers
+💡 Think of this pattern when...
+Array is sorted
+Need a pair/triplet/quadruplet
+Compare from both ends
+Remove duplicates
+In-place modification
 
-- Array is sorted
-- Need a pair/triplet/quadruplet
-- Compare from both ends
-- Remove duplicates
-- In-place modification
-
-### Common Keywords
-
+Common Keywords
 Sorted
 Pair
 Triplet
@@ -21,34 +19,27 @@ Duplicate
 Move Zeroes
 Container
 
-### Pointer Logic
-
-```
+Pointer Logic
 sum < target  → left++
 sum > target  → right--
 sum == target → store answer
 duplicate     → skip duplicate
-```
 
-### Complexity
-
+Complexity
 Time : O(n) / O(n²)
 Space: O(1)
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# 2️⃣ Sliding Window
-## 💡 Think of this pattern when...
+2️⃣ Sliding Window
+💡 Think of this pattern when...
+Subarray
+Substring
+Contiguous elements
+Longest / Shortest window
+At Most K
+Exactly K
+Frequency counting
 
-- Subarray
-- Substring
-- Contiguous elements
-- Longest / Shortest window
-- At Most K
-- Exactly K
-- Frequency counting
-
-### Common Keywords
-
+Common Keywords
 Subarray
 Substring
 Continuous
@@ -60,35 +51,29 @@ Consecutive
 At Most K
 Exactly K
 
-### Window Logic
-```
+Window Logic
 Expand →
 Update Window →
 Valid ?
 Yes → Shrink
 Update Answer
 Repeat
-```
 
-### Complexity
+Complexity
 Time : O(n)
 Space: O(1) ~ O(k)
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3️⃣ Slow & Fast Pointer
+💡 Think of this pattern when...
+Linked List
+Cycle
+Middle node
+Palindrome
+Reorder
+Nth from end
+Reverse half
 
-# 3️⃣ Slow & Fast Pointer
-## 💡 Think of this pattern when...
-
-- Linked List
-- Cycle
-- Middle node
-- Palindrome
-- Reorder
-- Nth from end
-- Reverse half
-
-### Common Keywords
-
+Common Keywords
 Cycle
 Middle
 Linked List
@@ -97,50 +82,84 @@ Circular
 Nth Node
 Palindrome
 
-### Pointer Logic
-
-```
+Pointer Logic
 slow += 1
 fast += 2
-
 meet → cycle
-
 fast == null
 or
 fast.next == null
-
 → no cycle
-```
 
-### Complexity
+Complexity
 Time : O(n)
 Space: O(1)
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# ⚡ Pattern Selection Cheat Sheet
+4️⃣ Kadane's Algorithm
+💡 Think of this pattern when...
+Maximum / Minimum subarray sum
+Contiguous subarray
+Positive + negative numbers
+Maximum sum in one traversal
+Circular subarray
+One deletion
+Maximum product
 
-| Problem Clue | Pattern |
-|--------------|---------|
-| Sorted Array | Two Pointers |
-| Pair Sum | Two Pointers |
-| 3Sum / 4Sum | Two Pointers |
-| Remove Duplicates | Two Pointers |
-| Subarray | Sliding Window |
-| Substring | Sliding Window |
-| Longest Window | Sliding Window |
-| Minimum Window | Sliding Window |
-| At Most K | Sliding Window |
-| Frequency Map | Sliding Window |
-| Linked List Cycle | Slow & Fast |
-| Middle Node | Slow & Fast |
-| Nth From End | Slow & Fast |
-| Reorder List | Slow & Fast |
-| Palindrome Linked List | Slow & Fast |
+Common Keywords
+Maximum Subarray
+Minimum Subarray
+Maximum Sum
+Contiguous
+Circular
+One Deletion
+Maximum Product
 
-# 📊 Progress
+Kadane Logic
+current = max(nums[i], current + nums[i])
+answer = max(answer, current)
 
-| Pattern | Status | Progress |
-|----------|--------|----------|
-| ✅ Two Pointers | Completed | 13 Questions |
-| ✅ Sliding Window | Completed | 14 Questions |
-| 🚧 Slow & Fast Pointer | In Progress | 1 / 14 |
+Restart → nums[i]
+Extend  → current + nums[i]
+
+Variations
+Minimum Sum     → Minimum Kadane
+Circular Array  → total - minSum
+Absolute Sum    → max(maxSum, abs(minSum))
+One Deletion    → noDelete + oneDelete
+Product         → Track max + min product
+
+Complexity
+Time : O(n)
+Space: O(1)
+
+⚡ Pattern Selection Cheat Sheet
+Problem Clue	Pattern
+Sorted Array	Two Pointers
+Pair Sum	Two Pointers
+3Sum / 4Sum	Two Pointers
+Remove Duplicates	Two Pointers
+Subarray	Sliding Window / Kadane
+Substring	Sliding Window
+Longest Window	Sliding Window
+Minimum Window	Sliding Window
+At Most K	Sliding Window
+Frequency Map	Sliding Window
+Linked List Cycle	Slow & Fast
+Middle Node	Slow & Fast
+Nth From End	Slow & Fast
+Reorder List	Slow & Fast
+Palindrome Linked List	Slow & Fast
+Maximum Subarray Sum	Kadane
+Minimum Subarray Sum	Kadane
+Maximum Absolute Sum	Kadane
+Circular Subarray Sum	Kadane
+One Deletion + Max Sum	Kadane
+Maximum Product Subarray	Kadane
+
+📊 Progress
+Pattern	Status	Progress
+✅ Two Pointers	Completed	13 Questions
+✅ Sliding Window	Completed	14 Questions
+✅ Slow & Fast Pointer	Completed 14 / 14
+✅ Kadane's Algorithm	Completed	5/5
+
